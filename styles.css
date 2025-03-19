@@ -1,0 +1,47 @@
+/* styles.css */
+body {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: -5px;
+    color: #cccccc;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-links img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
